@@ -30,3 +30,29 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Local .terraform directories
+terraform/.terraform/
+
+# Terraform state files
+terraform/*.tfstate
+terraform/*.tfstate.*
+
+# Crash logs
+terraform/crash.log
+terraform/crash.*.log
+
+# Exclude override files
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+# Exclude tfplan files
+terraform/*.tfplan
+
+# Sensitive variable files
+terraform/*.tfvars
+terraform/*.tfvars.json
+
+# CLI config files
+terraform/.terraformrc
+terraform/terraform.rc
