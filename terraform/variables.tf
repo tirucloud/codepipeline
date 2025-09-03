@@ -14,8 +14,3 @@ variable "github_branch" {
   default     = "main"
 }
 
-variable "github_oauth_token" {
-  description = "GitHub Personal Access Token (PAT)"
-  type        = string
-  sensitive   = true
-}
