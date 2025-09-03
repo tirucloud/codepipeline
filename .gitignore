@@ -56,3 +56,4 @@ terraform/*.tfvars.json
 # CLI config files
 terraform/.terraformrc
 terraform/terraform.rc
+terraform/.terraform.lock.hcl
